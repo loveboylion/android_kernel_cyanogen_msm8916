@@ -59,6 +59,7 @@
 			goodix,irq_flags = <0x2>;
 			goodix,screen_x = <720>;
 			goodix,screen_y = <1280>;
+			goodix,force-update;
 		};
 	};
 
