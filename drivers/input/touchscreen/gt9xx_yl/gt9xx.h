@@ -90,7 +90,7 @@ extern u16 total_len;
 
 #define TW_GLOVE_SWITCH  1
 /* begin to add esd protect switch and set it open by liushilong@yulong.com on 2014-11-7 18:00*/
-#define GTP_ESD_PROTECT       1
+#define GTP_ESD_PROTECT       0
 /* end to add esd protect switch and set it open by liushilong@yulong.com on 2014-11-7 18:00*/
 //Register define
 #define GTP_READ_COOR_ADDR    0x814E
@@ -108,7 +108,7 @@ extern u16 total_len;
 extern unsigned char GTP_DEBUG_ON;
 
 #define GTP_DEBUG_ARRAY_ON    0
-#define GTP_DEBUG_FUNC_ON     0
+#define GTP_DEBUG_FUNC_ON     1
 
 
 //Log define
