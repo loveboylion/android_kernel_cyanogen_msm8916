@@ -44,7 +44,7 @@
 
 	i2c@78b9000 { /* BLSP1 QUP5 */
 		goodix_ts@5d {
-			compatible = "Goodix,Goodix-TS";
+			compatible = "Goodix,970_1039";
 			reg = <0x5d>;
 			interrupt-parent = <&msm_gpio>;
 			interrupts = <13 0x2>;

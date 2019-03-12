@@ -2435,7 +2435,7 @@ static int goodix_ts_gpio_init(bool on)
 
 	/* touchscreen reset gpio request and init */
 	if (gpio_is_valid(gtpdata->gpio_reset)) {
-		ret = gpio_request(gtpdata->gpio_reset, "goodix-ts-reset");
+		ret = gpio_request(gtpdata->gpio_reset, "970_1039-reset");
 		if (ret){
 			pr_err("TOUCH:%s:Failed to request GPIO %d\n",__func__, gtpdata->gpio_reset);
 			return ret;
@@ -2447,7 +2447,7 @@ static int goodix_ts_gpio_init(bool on)
 	}
 
 	if (gpio_is_valid(gtpdata->gpio_irq)) {
-		ret = gpio_request(gtpdata->gpio_irq, "goodix-ts-irq");
+		ret = gpio_request(gtpdata->gpio_irq, "970_1039-irq");
 		if (ret){
 			pr_err("TOUCH:%s: Failed to request GPIO %d\n",__func__, gtpdata->gpio_irq);
 			gpio_free(gtpdata->gpio_irq);
@@ -3685,7 +3685,7 @@ static const struct i2c_device_id goodix_ts_id[] = {
 
 #ifdef CONFIG_OF
 static struct of_device_id goodix_match_table[] = {
-	{ .compatible = "Goodix,Goodix-TS",},
+	{ .compatible = "Goodix,970_1039",},
 	{ },
 };
 #else

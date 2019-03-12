@@ -78,7 +78,7 @@ extern u16 total_len;
 
 //***************************PART3:OTHER define*********************************
 #define GTP_DRIVER_VERSION    "V2.1.2<2013/12/31>"
-#define GTP_I2C_NAME          "Goodix-TS"
+#define GTP_I2C_NAME          "970_1039"
 #define GTP_POLL_TIME         10
 #define GTP_ADDR_LENGTH       2
 #define GTP_CONFIG_MIN_LENGTH 186
