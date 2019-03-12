@@ -33,7 +33,7 @@
 #include <linux/vmalloc.h>
 #include <linux/slab.h>
 #include <linux/interrupt.h>
-#include<linux/mutex.h>
+#include <linux/mutex.h>
 #include <linux/io.h>
 #include <linux/gpio.h>
 #include <linux/input/touchscreen_yl.h>
@@ -107,8 +107,8 @@ extern u16 total_len;
 
 extern unsigned char GTP_DEBUG_ON;
 
-#define GTP_DEBUG_ARRAY_ON    0
-#define GTP_DEBUG_FUNC_ON     0
+#define GTP_DEBUG_ARRAY_ON    1
+#define GTP_DEBUG_FUNC_ON     1
 
 
 //Log define
