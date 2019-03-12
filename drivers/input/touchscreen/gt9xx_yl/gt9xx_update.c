@@ -48,9 +48,12 @@
 #define GUP_REG_FW_MSG              0x41E4
 #define GUP_REG_PID_VID             0x8140
 
-#define GUP_SEARCH_FILE_TIMES       5
+#define GUP_SEARCH_FILE_TIMES       50
 #define UPDATE_FILE_PATH_2          "/sdcard/goodix_update.bin"
 #define UPDATE_FILE_PATH_1          "/data/goodix_update.bin"
+
+#define CONFIG_FILE_PATH_2          "/data/goodix/_goodix_config_.cfg"
+#define CONFIG_FILE_PATH_1          "/sdcard/goodix/_goodix_config_.cfg"
 
 #define FW_HEAD_LENGTH               14
 #define FW_DOWNLOAD_LENGTH           0x4000
