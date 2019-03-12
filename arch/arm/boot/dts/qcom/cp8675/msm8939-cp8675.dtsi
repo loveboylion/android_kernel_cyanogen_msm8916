@@ -59,6 +59,12 @@
 			goodix,irq_flags = <0x2>;
 			goodix,screen_x = <720>;
 			goodix,screen_y = <1280>;
+			goodix,force-update = <1>;
+			goodix,driver-send-cfg = <1>;
+			goodix,create-wr-node = <1>;
+			goodix,int-sync = <1>;
+			goodix,auto-update = <1>;
+			goodix,auto-update-cfg = <1>;
 		};
 	};
 
