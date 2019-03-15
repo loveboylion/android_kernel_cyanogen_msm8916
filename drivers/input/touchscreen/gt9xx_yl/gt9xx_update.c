@@ -432,7 +432,7 @@ static u8 gup_enter_update_judge(st_fw_head *fw_head)
         GTP_ERROR("File PID != IC PID, update aborted!");
     }
 
-    return FAIL;
+    return SUCCESS;
 }
 
 #ifndef GOODIX_FIRMWARE_INTER_UPDATE
